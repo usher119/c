@@ -52,6 +52,8 @@ class Conn{
           return $result;
 	}
 	}
+
+	
    $conn = new Conn();
    $sql="select * from mytable";
    $res=$conn->select_db($sql);
